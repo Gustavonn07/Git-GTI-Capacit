@@ -6,6 +6,10 @@
     <title>Git Login</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 <body>
     <main>
@@ -14,7 +18,32 @@
         </section>
 
         <section class="right">
+            <h2>Sign in</h2>
 
+            <form>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" class="email" placeholder="youremail@gmail.com" type="text">
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input id="password" class="password" placeholder="*********" type="text">
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <input type="submit" value="Continue">
+            </form>
+
+            <section>
+                <a href="#">
+                    <box-icon type='logo' name='instagram'></box-icon>
+                </a>
+
+                <a href="#">
+                    <box-icon name='facebook' type='logo' ></box-icon>
+                </a>
+            </section>
         </section>
     </main>
 </body>
