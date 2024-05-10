@@ -11,4 +11,4 @@
   <img alt="Gustavo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
 <hr/>
-<p align='center'>Projeto feito em Maio de 2024</p>
+<p align='center'>Projeto feito em Maio de 2024 utilizando o figma como mockup (criado por Gustavo Nepomuceno)</p>
