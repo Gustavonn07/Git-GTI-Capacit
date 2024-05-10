@@ -188,11 +188,6 @@ box-icon:active {
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-
     .left {
         display: none;
     }
