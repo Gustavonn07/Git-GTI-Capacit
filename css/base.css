@@ -20,9 +20,32 @@ main {
 .left::before {
     content: "";
     position: absolute;
-    background-color: #00000040;
+    background-color: #00000060;
     width: 100%;
     height: 100%;
+}
+
+.left div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    gap: 1.5rem;
+    margin: 2rem 0 0 4rem;
+    position: absolute;
+}
+
+.git {
+    width: 6rem;
+    height: 6rem;
+    background-size: cover;
+    fill: #30C474;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #30C474;
+    text-shadow: 0 .3rem .6rem #00000020;
 }
 
 .right {
@@ -103,8 +126,49 @@ div a {
     font-weight: 600;
     font-size: 1.6rem;
     background-image: linear-gradient(to right, var(--secondary_color_light) 0%, var(--secondary_color_dark) 100%);
+    transition: all .2s;
+    box-shadow: 0 .2rem .4rem #00000060;
+    cursor: pointer;
+}
+
+.btn:hover, 
+.btn:focus {
+    transform: translateY(-2px) scale(102%);
+    box-shadow: 0 .4rem 1rem #00000080;
+}
+
+.btn:active {
+    transform: translateY(-1px) scale(101%);
+    box-shadow: 0 .3rem .6rem #00000070;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2.8rem;
 }
 
 box-icon {
-    
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+    transition: all .2s;
+}
+
+box-icon:hover, 
+box-icon:focus {
+    transform: translateY(-2px) scale(102%);
+}
+
+box-icon:active {
+    transform: translateY(-1px) scale(101%);
+}
+
+.insta {
+    fill: #E15F5F;
+}
+
+.face {
+    fill: #178898;
 }
